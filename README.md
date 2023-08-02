@@ -55,5 +55,16 @@
   <h2>License</h2>
   <p>This project is licensed under the MIT License - see the <a href="./LICENSE">LICENSE</a> file for details.</p>
 </body>
+<h2>Deployment with Azure VM</h2>
+<p>
+We leveraged an Azure Virtual Machine (VM) to set up the server environment and deploy our React app. Here's an overview of the deployment process:
 
+Provisioning the VM: We created an Azure VM with the desired operating system (e.g., Linux or Windows) and appropriate resources to handle our application's traffic.
+
+Installing Dependencies: Once the VM was set up, we installed necessary software such as Node.js, npm, and Apache web server to serve the React app.
+
+Building and Deploying the React App: We cloned our Weather Explorer GitHub repository into the VM, then built the React app using npm. The production build was moved to the web server's root directory to host the application.
+
+Securing the VM: To ensure security, we configured firewall settings, managed SSH keys, and followed best practices to protect the VM from potential threats.
+</p>
 </html>
