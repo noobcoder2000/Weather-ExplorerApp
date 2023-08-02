@@ -67,4 +67,13 @@ Building and Deploying the React App: We cloned our Weather Explorer GitHub repo
 
 Securing the VM: To ensure security, we configured firewall settings, managed SSH keys, and followed best practices to protect the VM from potential threats.
 </p>
+ <h2>Hosting with Azure Web App</h2>
+  <p>
+    Additionally, we utilized Azure Web App to provide a scalable and managed environment for our Weather Explorer app. Here's an overview of the hosting process:
+  </p>
+  <ol>
+    <li>Creating the Web App: We set up an Azure Web App and configured it to use the appropriate runtime stack (Node.js 16).</li>
+    <li>Continuous Deployment: We implemented continuous deployment by connecting the Web App to our GitHub repository. This allowed automatic deployments whenever new changes were pushed to the main branch.</li>
+    <li>Scaling and Monitoring: Azure Web App provided automatic scaling and monitoring capabilities, ensuring our app could handle varying amounts of traffic and stay performant.</li>
+  </ol>
 </html>
